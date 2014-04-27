@@ -15,5 +15,5 @@ Built with HTML, CSS, JS, JQuery.
 ![widget](images/UsageCapture1.png)
 
 ## Team Members
-Alex Yao
-Ozan İlbey Yılmaz
+* Alex Yao
+* Ozan İlbey Yılmaz
