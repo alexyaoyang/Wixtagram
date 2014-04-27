@@ -10,7 +10,7 @@ Built with HTML, CSS, JS, JQuery.
 
 ## Screenshots
 
-![widget](images/wixtagram-cover-200.png)
+![widget](images/wixtagram-cover.png)
 
 ![widget](images/UsageCapture1.png)
 
