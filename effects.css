@@ -1,0 +1,352 @@
+/* STATIC FILTER PROPERTIES */
+
+.static.wixtagram {
+
+}
+
+img[class*="blur"].static.wixtagram {
+    filter: blur(1px);
+	-o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -webkit-filter: blur(1px);
+}
+
+img[class*="brightness"].static.wixtagram {	
+	filter: brightness(-20%);
+    -o-filter: brightness(-20%);
+    -ms-filter: brightness(-20%);
+    -moz-filter: brightness(-20%);
+    -webkit-filter: brightness(-20%);
+}
+
+img[class*="contrast"].static.wixtagram {	
+	filter: contrast(30%);
+    -o-filter: contrast(30%);
+    -ms-filter: contrast(30%);
+    -moz-filter: contrast(30%);
+    -webkit-filter: contrast(30%);
+}
+
+img[class*="dropshadow"].static.wixtagram {
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    -o-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    -ms-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    -moz-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+img[class*="halfgray"].static.wixtagram {
+	filter: grayscale(50%);
+    -o-filter: grayscale(50%);
+    -ms-filter: grayscale(50%);
+    -moz-filter: grayscale(50%);
+    -webkit-filter: grayscale(50%);
+}
+
+img[class*="grayscale"].static.wixtagram {
+	filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+img[class*="opposite"].static.wixtagram {
+	filter: hue-rotate(180deg);
+    -o-filter: hue-rotate(180deg);
+    -ms-filter: hue-rotate(180deg);
+    -moz-filter: hue-rotate(180deg);
+    -webkit-filter: hue-rotate(180deg);
+}
+
+img[class*="invert"].static.wixtagram {
+    filter: invert(100%);
+    -o-filter: invert(100%);
+    -ms-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
+
+img[class*="semitransparent"].static.wixtagram {
+	filter: opacity(50%);
+    -o-filter: opacity(50%);
+    -ms-filter: opacity(50%);
+    -moz-filter: opacity(50%);
+    -webkit-filter: opacity(50%);
+}
+
+img[class*="saturated"].static.wixtagram {
+	filter: saturate(200%);
+    -o-filter: saturate(200%);
+    -ms-filter: saturate(200%);
+    -moz-filter: saturate(200%);
+    -webkit-filter: saturate(200%);
+}
+
+img[class*="sepia"].static.wixtagram {
+	filter: sepia(100%);
+    -o-filter: sepia(100%);
+    -ms-filter: sepia(100%);
+    -moz-filter: sepia(100%);
+    -webkit-filter: sepia(100%);
+}
+
+img[class*="blackandwhite"].static.wixtagram {
+    filter: grayscale(100%) brightness(10%) contrast(100%);
+    -o-filter: grayscale(100%) brightness(10%) contrast(100%);
+    -ms-filter: grayscale(100%) brightness(10%) contrast(100%);
+    -moz-filter: grayscale(100%) brightness(10%) contrast(100%);
+    -webkit-filter: grayscale(100%) brightness(10%) contrast(100%);
+}
+
+/* ANIMATED FILTER PROPERTIES */
+
+.animated.wixtagram {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    -o-animation-duration: 10s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-timing-function: ease;
+    -ms-animation-duration: 10s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: ease;
+    -moz-animation-duration: 10s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease;
+}
+
+/* Animation Names */
+
+img[class*="hue"].animated.wixtagram {
+    animation-name: hue !important;
+    -o-animation-name: hue !important;
+    -ms-animation-name: hue !important;
+    -moz-animation-name: hue !important;
+    -webkit-animation-name: hue !important;
+}
+
+img[class*="brightness"].animated.wixtagram {
+    animation-name: brightness !important;
+    -o-animation-name: brightness !important;
+    -ms-animation-name: brightness !important;
+    -moz-animation-name: brightness !important;
+    -webkit-animation-name: brightness !important;
+}
+
+img[class*="saturate"].animated.wixtagram {
+    animation-name: saturate !important;
+    -o-animation-name: saturate !important;
+    -ms-animation-name: saturate !important;
+    -moz-animation-name: saturate !important;
+    -webkit-animation-name: saturate !important;
+}
+
+img[class*="grayscale"].animated.wixtagram {
+    animation-name: grayscale !important;
+    -o-animation-name: grayscale !important;
+    -ms-animation-name: grayscale !important;
+    -moz-animation-name: grayscale !important;
+    -webkit-animation-name: grayscale !important;
+}
+
+/* Animation Durations */
+
+img[class*="5s"].animated.wixtagram {
+    animation-duration: 5s !important;
+    -o-animation-duration: 5s !important;
+    -ms-animation-duration: 5s !important;
+    -moz-animation-duration: 5s !important;
+    -webkit-animation-duration: 5s !important;
+}
+
+img[class*="10s"].animated.wixtagram {
+    animation-duration: 10s !important;
+    -o-animation-duration: 10s !important;
+    -ms-animation-duration: 10s !important;
+    -moz-animation-duration: 10s !important;
+    -webkit-animation-duration: 10s !important;
+}
+
+img[class*="15s"].animated.wixtagram {
+    animation-duration: 15s !important;
+    -o-animation-duration: 15s !important;
+    -ms-animation-duration: 15s !important;
+    -moz-animation-duration: 15s !important;
+    -webkit-animation-duration: 15s !important;
+}
+
+img[class*="20s"].animated.wixtagram {
+    animation-duration: 20s !important;
+    -o-animation-duration: 20s !important;
+    -ms-animation-duration: 20s !important;
+    -moz-animation-duration: 20s !important;
+    -webkit-animation-duration: 20s !important;
+}
+
+/* Animation Repetitions */
+
+img[class*="once"].animated.wixtagram {
+    animation-iteration-count: 1 !important;
+    -o-animation-iteration-count: 1 !important;
+    -ms-animation-iteration-count: 1 !important;
+    -moz-animation-iteration-count: 1 !important;
+    -webkit-animation-iteration-count: 1 !important;
+}
+
+img[class*="infinite"].animated.wixtagram {
+    animation-iteration-count: infinite !important;
+    -o-animation-iteration-count: infinite !important;
+    -ms-animation-iteration-count: infinite !important;
+    -moz-animation-iteration-count: infinite !important;
+    -webkit-animation-iteration-count: infinite !important;
+}
+
+/* Animation Keyframes */
+
+@-webkit-keyframes hue {
+    0% {
+        filter: hue-rotate(0deg);
+        -o-filter: hue-rotate(0deg);
+        -ms-filter: hue-rotate(0deg);
+        -moz-filter: hue-rotate(0deg);
+        -webkit-filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+        -o-filter: hue-rotate(360deg);
+        -ms-filter: hue-rotate(360deg);
+        -moz-filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+    }
+}
+
+@-webkit-keyframes brightness {
+    0%, 100%  {
+        filter: brightness(1);
+        -o-filter: brightness(1);
+        -ms-filter: brightness(1);
+        -moz-filter: brightness(1);
+        -webkit-filter: brightness(1);
+    }
+    50% {
+        filter: brightness(2);
+        -o-filter: brightness(2);
+        -ms-filter: brightness(2);
+        -moz-filter: brightness(2);
+        -webkit-filter: brightness(2);
+    }
+}
+
+@-webkit-keyframes saturate {
+    0%, 100%  {
+        filter: saturate(none);
+        -o-filter: saturate(none);
+        -ms-filter: saturate(none);
+        -moz-filter: saturate(none);
+        -webkit-filter: saturate(none);
+    }
+    50% {
+        filter: saturate(2);
+        -o-filter: saturate(2);
+        -ms-filter: saturate(2);
+        -moz-filter: saturate(2);
+        -webkit-filter: saturate(2);
+    }
+}
+
+@-webkit-keyframes grayscale {
+    0%, 100%  {
+        filter: grayscale(0);
+        -o-filter: grayscale(0);
+        -ms-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -webkit-filter: grayscale(0);
+    }
+    50% {
+        filter: grayscale(.5);
+        -o-filter: grayscale(.5);
+        -ms-filter: grayscale(.5);
+        -moz-filter: grayscale(.5);
+        -webkit-filter: grayscale(.5);
+    }
+}
+
+/* FRAME PROPERTIES */
+
+.framed.wixtagram {
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgba(255,255,255,1);
+}
+
+/* Frame Colors */
+
+img[class*="white"].framed.wixtagram {
+    border-color: rgba(255,255,255,1) !important;
+}
+
+img[class*="black"].framed.wixtagram {
+    border-color: rgba(0,0,0,1) !important;
+}
+
+img[class*="lighten"].framed.wixtagram {
+    border-color: rgba(255,255,255,.5) !important;
+}
+
+img[class*="darken"].framed.wixtagram {
+    border-color: rgba(0,0,0,.5) !important;
+}
+
+/* Frame Sizes */
+
+img[class*="5px"].framed.wixtagram {
+    border-width: 5px !important;
+}
+
+img[class*="10px"].framed.wixtagram {
+    border-width: 10px !important;
+}
+
+img[class*="25px"].framed.wixtagram {
+    border-width: 25px !important;
+}
+
+img[class*="50px"].framed.wixtagram {
+    border-width: 50px !important;
+}
+
+/* ROUNDED CORNER PROPERTIES */
+
+.rounded.wixtagram {
+    border-radius: 10%;
+    box-sizing: border-box;
+}
+
+/* Rounded Corner Positions */
+
+img[class*="inline"].rounded.wixtagram {
+    box-sizing: border-box !important;
+}
+
+img[class*="outline"].rounded.wixtagram {
+    box-sizing: content-box !important;
+}
+
+/* Rounded Corner Sizes */
+
+img[class*="10pc"].rounded.wixtagram {
+    border-radius: 10% !important;
+}
+
+img[class*="25pc"].rounded.wixtagram {
+    border-radius: 25% !important;
+}
+
+img[class*="50pc"].rounded.wixtagram {
+    border-radius: 50% !important;
+}
